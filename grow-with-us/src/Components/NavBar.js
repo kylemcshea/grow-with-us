@@ -8,7 +8,7 @@ function NavBar() {
           <li>
             <a href="biz.html">For Businesses</a>
           </li>
-          <li>
+          <li className="chage">
             <a href="press.html">PR Services</a>
           </li>
           <li>
