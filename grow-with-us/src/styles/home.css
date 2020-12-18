@@ -1,0 +1,20 @@
+.img {
+  width: 100%;
+  height: auto;
+}
+.title-text {
+  color: white;
+  font-family: "Nunito";
+  color: green;
+  font-size: 3rem;
+}
+.image-container {
+  position: relative;
+  text-align: center;
+}
+.left-center {
+  font-family: "Nunito";
+  color: green;
+  display: inline-block;
+  text-align: left;
+}
