@@ -3,6 +3,7 @@ import "../styles/home.css";
 import Typist from "react-typist";
 import Statement from "./Statement";
 import Packages from "./Packages";
+import Featured from "./Featured";
 function HomePage() {
   return (
     <div className="home">
@@ -17,6 +18,7 @@ function HomePage() {
       </div>
       <Statement />
       <Packages />
+      <Featured />
     </div>
   );
 }

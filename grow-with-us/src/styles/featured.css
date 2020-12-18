@@ -1,0 +1,19 @@
+.title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  margin-left: 10%;
+}
+.parent-feature {
+  text-align: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 100%;
+}
+.child-feature {
+  flex: 1 0 10%;
+  flex-grow: none;
+  justify-content: center;
+}

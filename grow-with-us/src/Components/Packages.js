@@ -514,7 +514,7 @@ function Package() {
                       onclick="location.href='https://checkout.square.site/buy/NBVJVC2XGV7D6JHLKGH2SKBA'"
                     >
                       Grow with <br />
-                      STARTER
+                      BOSS OF INSTAGRAM
                     </button>
                   </Card>
                 </Accordion>
@@ -524,150 +524,185 @@ function Package() {
 
           <h1>Business Packages</h1>
           <div className="break"></div>
+          <div className="parent">
+            <div className="child">
+              <Accordion className="package">
+                <Card className="package">
+                  <Card.Header className="package-header">
+                    <h2>STARTER</h2>
+                    <div className="break"></div>
+                    <div className="servicebreak"></div>
+                    <div className="break"></div>
 
-          <div className="package">
-            <h2>STARTER</h2>
-            <div className="break"></div>
-            <div className="servicebreak"></div>
-            <div className="break"></div>
+                    <h3>Grow With Us</h3>
+                    <div className="break"></div>
+                    <Accordion.Toggle
+                      className="accordian-button"
+                      as={Button}
+                      variant="link"
+                      eventKey="1"
+                    >
+                      <div className="arrow bounce">
+                        <icon
+                          className="fa fa-arrow-down fa-2x"
+                          href="#"
+                        ></icon>
+                      </div>
+                    </Accordion.Toggle>
+                    <p className="package-details">Show Details</p>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="1">
+                    <Card.Body>
+                      <ul className="package-details">
+                        <li>10-20K REAL Followers</li>
+                        <li>Access to our private community on Discord</li>
+                        <li>Weekly Live Calls</li>
+                      </ul>
+                    </Card.Body>
+                  </Accordion.Collapse>
+                  <h4 className="package-pricing">
+                    $1500 activation fee
+                    <br /> +<br /> $600/month
+                  </h4>
+                  <p>
+                    Monthly Engagement <br />
+                    1,000+ likes | 100+ comments per post
+                    <br />
+                  </p>
+                  <p>First Month FREE!</p>
+                  <button
+                    className="button-grow"
+                    onclick="location.href='https://checkout.square.site/buy/NBVJVC2XGV7D6JHLKGH2SKBA'"
+                  >
+                    Grow with <br />
+                    STARTER
+                  </button>
+                </Card>
+              </Accordion>
+            </div>
+            <div className="child">
+              <Accordion className="package">
+                <Card className="package">
+                  <Card.Header className="package-header">
+                    <h2>ELITE</h2>
+                    <div className="break"></div>
+                    <div className="servicebreak"></div>
+                    <div className="break"></div>
 
-            <h3>Grow With Us</h3>
-            <div className="break"></div>
-            <p>Show Details</p>
-            <a onclick="myFunction6()">+</a>
-            <div className="break"></div>
-            <p id="myDIV-6">
-              &#x2022; 10-20K REAL Followers
-              <br />
-              <br />
-              &#x2022; Monthly Engagement (1000+ likes, 100+ comments per post)
-              <br />
-              <br />
-              &#x2022; Access to our private community on Discord
-              <br />
-              <br />
-              &#x2022; Weekly Live Calls
-              <br />
-              <br />
-            </p>
-            <div className="break"></div>
-            <div className="servicebreak-other"></div>
-            <div className="break"></div>
-            <h4>
-              $1500 activation fee
-              <br /> +<br /> $600/month
-            </h4>
-            <div className="break"></div>
-            <button onclick="location.href='https://calendly.com/dremedici/1on1call'">
-              Grow with STARTER
-            </button>
+                    <h3>Grow With Us</h3>
+                    <div className="break"></div>
+                    <Accordion.Toggle
+                      className="accordian-button"
+                      as={Button}
+                      variant="link"
+                      eventKey="1"
+                    >
+                      <div className="arrow bounce">
+                        <icon
+                          className="fa fa-arrow-down fa-2x"
+                          href="#"
+                        ></icon>
+                      </div>
+                    </Accordion.Toggle>
+                    <p className="package-details">Show Details</p>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="1">
+                    <Card.Body>
+                      <ul className="package-details">
+                        <li>25K+ REAL Followers</li>
+                        <li>
+                          5 Influencer Promotions (200k+ views GUARANTEED)
+                        </li>
+                        <li>1 Press Article</li>
+                        <li>24/7 Support</li>
+                        <li>Access to our private community on Discord</li>
+                        <li>Weekly Live Calls</li>
+                      </ul>
+                    </Card.Body>
+                  </Accordion.Collapse>
+                  <h4 className="package-pricing">
+                    $2500 activation fee
+                    <br /> +<br /> $1250/month
+                  </h4>
+                  <p>
+                    Monthly Engagement <br />
+                    1000+ likes | 100+ comments per post
+                  </p>
+                  <p>First Month FREE!</p>
+                  <button
+                    className="button-grow"
+                    onclick="location.href='https://checkout.square.site/buy/NBVJVC2XGV7D6JHLKGH2SKBA'"
+                  >
+                    Grow with <br />
+                    ELITE
+                  </button>
+                </Card>
+              </Accordion>
+            </div>
+            <div className="child">
+              <Accordion className="package">
+                <Card className="package">
+                  <Card.Header className="package-header">
+                    <h2>DIAMOND</h2>
+                    <div className="break"></div>
+                    <div className="servicebreak"></div>
+                    <div className="break"></div>
+
+                    <h3>Grow With Us</h3>
+                    <div className="break"></div>
+                    <Accordion.Toggle
+                      className="accordian-button"
+                      as={Button}
+                      variant="link"
+                      eventKey="1"
+                    >
+                      <div className="arrow bounce">
+                        <icon
+                          className="fa fa-arrow-down fa-2x"
+                          href="#"
+                        ></icon>
+                      </div>
+                    </Accordion.Toggle>
+                    <p className="package-details">Show Details</p>
+                  </Card.Header>
+                  <Accordion.Collapse eventKey="1">
+                    <Card.Body>
+                      <ul className="package-details">
+                        <li>50K+ REAL Followers</li>
+                        <li>100-150K Real Followers (U.S Based + Int’l)</li>
+                        <li>
+                          10 Influencer Promotions (400k+ views GUARANTEED){" "}
+                        </li>
+                        <li>3 Press Articles</li>
+                        <li>Website Design & Development</li>
+                        <li>Instagram Rebranding Sessions</li>
+                        <li>1 Monthly Photoshoo</li>
+                        <li>24/7 Support</li>
+                        <li>Access to our private community on Discord</li>
+                        <li>Weekly Live Calls</li>
+                      </ul>
+                    </Card.Body>
+                  </Accordion.Collapse>
+                  <h4 className="package-pricing">
+                    $3500 activation fee
+                    <br /> +<br /> $2500/month
+                  </h4>
+                  <p>
+                    Monthly Engagement <br />
+                    1,000+ likes | 100+ comments per post <br />
+                  </p>
+                  <p>First Month FREE!</p>
+                  <button
+                    className="button-grow"
+                    onclick="location.href='https://checkout.square.site/buy/NBVJVC2XGV7D6JHLKGH2SKBA'"
+                  >
+                    Grow with <br />
+                    DIAMOND
+                  </button>
+                </Card>
+              </Accordion>
+            </div>
           </div>
-          <div className="break"></div>
-
-          <div className="package">
-            <h2>ELITE</h2>
-            <div className="break"></div>
-            <div className="servicebreak"></div>
-            <div className="break"></div>
-
-            <h3>Grow With Us</h3>
-            <div className="break"></div>
-            <p>Show Details</p>
-            <a onclick="myFunction7()">+</a>
-            <div className="break"></div>
-            <p id="myDIV-7">
-              &#x2022; 25K+ REAL Followers
-              <br />
-              <br />
-              &#x2022; Monthly Engagement (1000+ likes, 100+ comments per post)
-              <br />
-              <br />
-              &#x2022; 5 Influencer Promotions (200k+ views GUARANTEED)
-              <br />
-              <br />
-              &#x2022; 1 Press Article
-              <br />
-              <br />
-              &#x2022; 24/7 Support
-              <br />
-              <br />
-              &#x2022; Access to our private community on Discord
-              <br />
-              <br />
-              &#x2022; Weekly Live Calls
-              <br />
-              <br />
-            </p>
-            <div className="break"></div>
-            <div className="servicebreak-other"></div>
-            <div className="break"></div>
-            <h4>
-              $2500 activation fee
-              <br /> +<br /> $1250/month
-            </h4>
-            <div className="break"></div>
-            <button onclick="location.href='https://calendly.com/dremedici/1on1call'">
-              Grow with ELITE
-            </button>
-          </div>
-          <div className="break"></div>
-
-          <div className="package">
-            <h2>DIAMOND</h2>
-            <div className="break"></div>
-            <div className="servicebreak"></div>
-            <div className="break"></div>
-
-            <h3>Grow With Us</h3>
-            <div className="break"></div>
-            <p>Show Details</p>
-            <a onclick="myFunction8()">+</a>
-            <div className="break"></div>
-            <p id="myDIV-8">
-              &#x2022; 50K+ REAL Followers
-              <br />
-              <br />
-              &#x2022; Monthly Engagement (1000+ likes, 100+ comments per post)
-              <br />
-              <br />
-              &#x2022; 10 Influencer Promotions (400k+ views GUARANTEED)
-              <br />
-              <br />
-              &#x2022; 3 Press Articles
-              <br />
-              <br />
-              &#x2022; Website Design & Development
-              <br />
-              <br />
-              &#x2022; Instagram Rebranding Sessions
-              <br />
-              <br />
-              &#x2022; 1 Monthly Photoshoot
-              <br />
-              <br />
-              &#x2022; 24/7 Support
-              <br />
-              <br />
-              &#x2022; Access to our private community on Discord
-              <br />
-              <br />
-              &#x2022; Weekly Live Calls
-              <br />
-              <br />
-            </p>
-            <div className="break"></div>
-            <div className="servicebreak-other"></div>
-            <div className="break"></div>
-            <h4>
-              $3500 activation fee
-              <br /> +<br /> $2500/month
-            </h4>
-            <div className="break"></div>
-            <button onclick="location.href='https://calendly.com/dremedici/1on1call'">
-              Grow with DIAMOND
-            </button>
-          </div>
-          <div className="break"></div>
         </div>
       </div>
     </div>

@@ -41,15 +41,15 @@ a {
     transform: translateY(0);
   }
   40% {
-    transform: translateY(-30px);
+    transform: translateY(-15px);
   }
   60% {
-    transform: translateY(-15px);
+    transform: translateY(-7.5px);
   }
 }
 .parent {
   text-align: center;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
   display: flex;
   flex-wrap: wrap;
@@ -61,12 +61,16 @@ a {
 }
 .parent-container {
   display: flex;
-  justify-content: space-between;
 }
 .child {
-  flex: 1 0 22%;
+  flex: 1 0 30%;
   flex-grow: none;
   justify-content: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.child:hover {
+  transform: scale(1.01);
 }
 .package {
   display: flex;
@@ -76,6 +80,12 @@ a {
   border-radius: none !important;
   box-shadow: none;
   border-color: white;
+}
+.package.accordian:hover:hover,
+.package-details:hover,
+.package-header:hover,
+.package-wrapper:hover {
+  background-color: rgba(255, 255, 255, 0.9);
 }
 .package-wrapper {
   width: 100%;
