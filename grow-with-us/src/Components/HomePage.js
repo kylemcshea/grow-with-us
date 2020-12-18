@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/home.css";
 import Typist from "react-typist";
+import Statement from "./Statement";
+import Packages from "./Packages";
 function HomePage() {
   return (
     <div className="home">
@@ -13,6 +15,8 @@ function HomePage() {
           src={process.env.PUBLIC_URL + "/images/skyline.jpg"}
         />
       </div>
+      <Statement />
+      <Packages />
     </div>
   );
 }
