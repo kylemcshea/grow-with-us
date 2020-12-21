@@ -6,19 +6,19 @@ function NavBar() {
       <nav className="nav">
         <ul>
           <li>
-            <a href="biz.html">For Businesses</a>
+            <a href="/for_business">For Businesses</a>
           </li>
           <li>
-            <a href="press.html">PR Services</a>
+            <a href="/pr_services">PR Services</a>
           </li>
           <li>
-            <a href="instagram.html">IG Services</a>
+            <a href="/instagram_services">IG Services</a>
           </li>
           <li>
-            <a href="giveaway.html">Giveaways</a>
+            <a href="/giveaways">Giveaways</a>
           </li>
           <li>
-            <a href="partner.html">Partnership Access</a>
+            <a href="/partnership_access">Partnership Access</a>
           </li>
           <li>
             <a href="#testimonial">Testimonials</a>
@@ -45,11 +45,11 @@ function NavBar() {
             <a href="#">Home</a>
             <a href="#packages">Packages</a>
             <a href="#testimonial">Testimonials</a>
-            <a href="partner.html">Partner With Us</a>
-            <a href="giveaway.html">Celebrity Giveaways</a>
-            <a href="instagram.html">Instagram Services</a>
-            <a href="press.html">PR Services</a>
-            <a href="biz.html">Business Services</a>
+            <a href="/partnership_access">Partner With Us</a>
+            <a href="/giveaways">Celebrity Giveaways</a>
+            <a href="/instagram_services">Instagram Services</a>
+            <a href="/pr_services">PR Services</a>
+            <a href="/for_business">Business Services</a>
             <a onclick="document.getElementById('id01').style.display='none'">
               &#10005;
             </a>

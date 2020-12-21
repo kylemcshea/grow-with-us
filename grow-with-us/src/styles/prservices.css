@@ -1,0 +1,54 @@
+.figure img {
+  margin-top: -35px;
+  background-color: white;
+}
+.figure {
+  padding-top: 100px;
+}
+.solutions h2 {
+  margin-bottom: 10px;
+}
+.solutions p {
+  text-align: center;
+  padding-bottom: 35px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.intro-pr-services {
+  text-align: center;
+  padding-bottom: 35px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.figure p {
+  margin-top: -70px;
+  color: black;
+}
+.contact-pr-services {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 0px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.email-pr-services {
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 0px;
+}
+.solutions .figure a {
+  padding: 10px 30px;
+  background: #c8923c;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.solutions .figure a:hover {
+  background: white;
+  color: black;
+}

@@ -521,8 +521,6 @@ function Package() {
               </div>
             </div>
           </div>
-
-          <h1>Business Packages</h1>
           <div className="break"></div>
           <div className="parent">
             <div className="child">

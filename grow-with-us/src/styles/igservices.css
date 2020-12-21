@@ -1,0 +1,53 @@
+.title-ig {
+  margin-bottom: 10px;
+}
+.intro-ig {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.info-ig {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 0px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.contact-ig {
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 0px;
+}
+.figure {
+  height: 150px;
+  width: 250px;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  margin-bottom: 75px;
+  text-align: center;
+}
+
+.figure img {
+  border-radius: 10px;
+}
+
+.figcaption {
+  margin-bottom: 18px;
+}
+
+.figure a {
+  padding: 10px 30px;
+  background: #c8923c;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.figure a:hover {
+  background: white;
+  color: black;
+}
